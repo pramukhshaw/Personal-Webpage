@@ -1,0 +1,71 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:#e5e5fd ;
+    min-height: 100vh;
+    border: 10px solid#1D1E4C;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+font-size: 60px;
+font-weight: bold;
+color: #1d1e4c;
+}
+.top_section h4{
+    text-align: end;
+    font-size: 20px;
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image_container,img{
+    width: 300px;
+    height: 320px;
+}
+.about_section h2{
+    margin-top: 50px;
+    font-size: 70px;
+    font-weight: 100px;
+    margin-bottom: 20px;
+   text-align: middle;
+}
+.about_section p{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+
+}
+.Detail_section h3{
+    font-size: 30px;
+  margin-top: 50PX;
+  margin-bottom: 20PX;
+
+}
+.Detail_section li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.Hobby_section h3{
+    margin-top: 20px;
+}
+.Hobby_section li{
+    font-size: 20px;
+}
+.Hobby_section li{
+    margin-bottom: 20px;
+}
